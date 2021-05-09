@@ -1,0 +1,35 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  height: 100vh;
+  background-repeat: repeat;
+  font-weight: bold;
+}
+.box {
+  background-image: url('../img/bg.jpg');
+}
+body {
+  margin: 0;
+}
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 65px;
+  margin-bottom: 0;
+      margin-top: 17px;
+}
+img.center-image {
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+.sub-text {
+  font-weight: 300;
+  font-family: 'Roboto Slab', serif;
+  color: rgba(79, 100, 115, 255);
+  font-size: 23.7px;
+  text-align: center;
+}
