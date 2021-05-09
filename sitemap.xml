@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>http://example.org/tool/color-contrast-checker/</loc>
+    <loc>/tool/color-contrast-checker/</loc>
   </url><url>
-    <loc>http://example.org/tool/html-live-editor/</loc>
+    <loc>/tool/html-live-editor/</loc>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>/tags/</loc>
   </url><url>
-    <loc>http://example.org/tool/</loc>
+    <loc>/tool/</loc>
   </url>
 </urlset>
