@@ -7,7 +7,8 @@ html, body {
   font-size: 16px;
 }
 
-h1, h2 {
+h1, 
+h2 {
   text-align: center;
   display: block;
   margin-top: 0;
@@ -36,42 +37,138 @@ h1, h2 {
   border-radius: 100%;
 }
 /* SVG */
-.st0{clip-path:url(#MisterThree_2);fill:#4A7FBD;}
-.st1{clip-path:url(#MisterThree_2);}
-.st2{fill:#F9BF8F;}
-.st3{fill:#F38B67;}
-.st4{fill:#EDF9F9;}
-.st5{fill:#3E65AE;}
-.st6{fill:#315095;}
-.st7{fill:#DEF1F8;}
-.st8{fill:#FFDBC0;}
-.st9{opacity:0.15;fill:#A45757;enable-background:new}
-.st10{fill:#512A3B;}
-.st11{fill:#613648;}
-.st12{fill:#723E55;}
-.st13{fill:url(#MisterThree_13_1);}
-.st14{fill:url(#MisterThree_14_1);fill-opacity:0;}
-.st15{opacity:6.363636e-02;fill:url(#MisterThree_3_1);enable-background:new}
-.st16{opacity:0.1273;fill:url(#MisterThree_4_1);enable-background:new}
-.st17{opacity:0.1909;fill:url(#MisterThree_5_1);enable-background:new}
-.st18{opacity:0.2545;fill:url(#MisterThree_6_1);enable-background:new}
-.st19{opacity:0.3182;fill:url(#MisterThree_7_1);enable-background:new}
-.st20{opacity:0.3818;fill:url(#MisterThree_8_1);enable-background:new}
-.st21{opacity:0.4455;fill:url(#MisterThree_9_1);enable-background:new}
-.st22{opacity:0.5091;fill:url(#MisterThree_10_1);enable-background:new}
-.st23{opacity:0.5727;fill:url(#MisterThree_11_1);enable-background:new}
-.st24{opacity:0.6364;fill:url(#MisterThree_12_1);enable-background:new}
-.st25{opacity:0.7;fill:url(MisterThree_15);enable-background:new}
-.st26{opacity:0.3;fill:#FFFFFF;}
-.st27{opacity:0.6;fill:#E76266;}
-.st28{fill:#9B4335;}
-.st29{fill:#EC5E76;}
-.st30{fill:url(#Mulut_4_1);}
-.st31{fill:#FFFFFF;}
-.st32{fill:#3A1B2B;}
-.st33{fill:#422030;}
-.st34{display:none;}
-#Badan, #Kepala { transition: all 0.25s; }
+.st0{
+  clip-path:url(#MisterThree_2);
+  fill:#4A7FBD;
+}
+.st1{
+  clip-path:url(#MisterThree_2);
+}
+.st2{
+  fill:#F9BF8F;
+}
+.st3{
+  fill:#F38B67;
+}
+.st4{
+  fill:#EDF9F9;
+}
+.st5{
+  fill:#3E65AE;
+}
+.st6{
+  fill:#315095;
+}
+.st7{
+  fill:#DEF1F8;
+}
+.st8{
+  fill:#FFDBC0;
+}
+.st9{
+  opacity:0.15;
+  fill:#A45757;
+  enable-background:new
+}
+.st10{
+  fill:#512A3B;
+}
+.st11{
+  fill:#613648;
+}
+.st12{
+  fill:#723E55;
+}
+.st13{
+  fill:url(#MisterThree_13_1);
+}
+.st14{
+  fill:url(#MisterThree_14_1);
+  fill-opacity:0;
+}
+.st15{
+  opacity:6.363636e-02;
+  fill:url(#MisterThree_3_1);
+  enable-background:new
+}
+.st16{
+  opacity:0.1273;
+  fill:url(#MisterThree_4_1);
+  enable-background:new
+}
+.st17{
+  opacity:0.1909;
+  fill:url(#MisterThree_5_1);
+  enable-background:new
+}
+.st18{
+  opacity:0.2545;
+  fill:url(#MisterThree_6_1);
+  enable-background:new
+}
+.st19{
+  opacity:0.3182;
+  fill:url(#MisterThree_7_1);
+  enable-background:new
+}
+.st20{
+  opacity:0.3818;
+  fill:url(#MisterThree_8_1);
+  enable-background:new
+}
+.st21{
+  opacity:0.4455;
+  fill:url(#MisterThree_9_1);
+  enable-background:new
+}
+.st22{
+  opacity:0.5091;
+  fill:url(#MisterThree_10_1);
+  enable-background:new
+}
+.st23{
+  opacity:0.5727;
+  fill:url(#MisterThree_11_1);
+  enable-background:new
+}
+.st24{
+  opacity:0.6364;
+  fill:url(#MisterThree_12_1);
+  enable-background:new
+}
+.st25{
+  opacity:0.7;
+  fill:url(MisterThree_15);
+  enable-background:new
+}
+.st26{
+  opacity:0.3;
+  fill:#FFFFFF;
+}
+.st27{
+  opacity:0.6;fill:#E76266;
+}
+.st28{
+  fill:#9B4335;
+}
+.st29{
+  fill:#EC5E76;
+}
+.st30{
+  fill:url(#Mulut_4_1);
+}
+.st31{
+  fill:#FFFFFF;
+}
+.st32{
+  fill:#3A1B2B;
+}
+.st33{
+  fill:#422030;
+}
+.st34{
+  display:none;
+}
 /* boxes */
 #boxes {
   display: flex;
@@ -94,7 +191,7 @@ h1, h2 {
   content: "✓ Pass";
   display: block;
   position: absolute;
-  color: #000;
+  color: #081;
   text-align:center;
   width: 100%;
   margin-top: 10px;
@@ -106,6 +203,7 @@ h1, h2 {
 
 #boxes > div.fail::after {
   content: "✕ Fail";
+  color: #d32;
 }
 
 #boxes > div:first-child {

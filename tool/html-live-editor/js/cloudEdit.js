@@ -317,7 +317,7 @@
     html += content.html;
     // true if previewing in the preview pane; false if called by download function.
     if (consoleJS) {
-      html += '\n<script src="/tool/cloudeditor/js/console.min.js"></script>\n';
+      html += '\n<script src="/tool/cloudeditor/js/console.js"></script>\n';
     }
     html += '\n<script>\n';
     html += content.js;
