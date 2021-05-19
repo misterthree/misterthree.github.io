@@ -275,6 +275,7 @@
     html += '<html lang="en">\n';
     html += '<head>\n';
     html += '<meta charset="UTF-8">\n';
+    html += '<title>MisterThree</title>\n';
     if (use.Normalize) {
       html += '<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet">\n';
     }
@@ -317,7 +318,7 @@
     html += content.html;
     // true if previewing in the preview pane; false if called by download function.
     if (consoleJS) {
-      html += '\n<script src="/tool/cloudeditor/js/console.js"></script>\n';
+      html += '\n<script src="/tool/html-live-editor/js/console.js"></script>\n';
     }
     html += '\n<script>\n';
     html += content.js;
@@ -379,7 +380,7 @@
     // pass false as we don't want the pseudo console.js script
     var textToWrite = buildOutput(false);
     var textFileAsBlob = new Blob([textToWrite], {type: "text/plain"});
-    var fileNameToSaveAs = "index.html";
+    var fileNameToSaveAs = "MisterThree.html";
 
     $download.download = fileNameToSaveAs;
 
