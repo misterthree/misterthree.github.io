@@ -275,6 +275,7 @@
     html += '<html lang="en">\n';
     html += '<head>\n';
     html += '<meta charset="UTF-8">\n';
+    html += '<link rel="shortcut icon" href="https://misterthree.netlify.app/favicon.ico">\n';
     html += '<title>MisterThree</title>\n';
     if (use.Normalize) {
       html += '<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet">\n';
