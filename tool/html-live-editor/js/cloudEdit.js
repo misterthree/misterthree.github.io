@@ -21,7 +21,7 @@
   // Check if a new appcache is available on page load. If so, ask to load it.
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/tool/html-live-editor/js/sw.js').then(function(registration) {
+      navigator.serviceWorker.register('/tool/html-live-editor/sw.js').then(function(registration) {
         // Registration was successful
         console.log('A new version of this site is available. Load it?', registration.scope);
       }, function(err) {

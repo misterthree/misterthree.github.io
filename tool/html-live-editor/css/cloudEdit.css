@@ -148,7 +148,7 @@ section:after {
 }
 
 .btn-active {
-  background: #D3ACAC;
+  background: #acd3d1;
   outline: 0;
   background-image: none;
   -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
@@ -156,7 +156,7 @@ section:after {
 }
 
 .btn-active:hover {
-  background: #E9CACA;
+  background: #cae5e9;
   color: #444;
 }
 #htmlToggle::before, 
